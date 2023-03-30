@@ -2,6 +2,7 @@
     --white: #F8F9FA;
     --lightgray: #E5E5E5;
     --dark-gray: #5B5858;
+    --orange: #FF8F00;
 }
 
 nav{
@@ -14,6 +15,10 @@ nav{
     z-index: 1;
     display: flex;
     align-items: center;
+}
+
+.small{
+    width: 10%;
 }
 
 .form-control{
@@ -30,4 +35,13 @@ nav{
 
 .icon{
     color: var(--dark-gray);
+}
+
+.icon-orange{
+    color: var(--orange);
+}
+
+.btn.show,
+.btn.active{
+    border-color: var(--white);
 }
