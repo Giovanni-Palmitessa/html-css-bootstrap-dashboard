@@ -1,9 +1,15 @@
+/* ROOT */
 :root{
     --white: #F8F9FA;
     --lightgray: #E5E5E5;
     --dark-gray: #5B5858;
     --orange: #FF8F00;
+    --darkblue: #051E34;
+
 }
+
+/* NAVBAR */
+
 
 nav{
     height: 70px;
@@ -40,4 +46,17 @@ nav{
 .btn.show,
 .btn.active{
     border-color: var(--white);
+}
+
+/* ASIDE */
+
+aside{
+    height: calc(100vh - 70px);
+    width: 150px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: var(--darkblue);
+    background-image: url(img/sidebar-bg.png);
+    background-size: cover;
 }
