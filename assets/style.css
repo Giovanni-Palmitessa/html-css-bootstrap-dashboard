@@ -1,5 +1,7 @@
 :root{
     --white: #F8F9FA;
+    --lightgray: #E5E5E5;
+    --dark-gray: #5B5858;
 }
 
 nav{
@@ -10,4 +12,22 @@ nav{
     left: 0;
     right: 0;
     z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.form-control{
+    background-color: var(--lightgray);
+}
+
+.input-group-text{
+    background-color: var(--lightgray);
+}
+
+.form-floating:not(.form-control:disabled)::before{
+    display: none;
+}
+
+.icon{
+    color: var(--dark-gray);
 }
