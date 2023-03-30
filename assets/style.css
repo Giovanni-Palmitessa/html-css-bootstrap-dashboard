@@ -1,5 +1,10 @@
+:root{
+    --white: #F8F9FA;
+}
+
 nav{
     height: 70px;
+    background-color: var(--white);
     position: fixed;
     top: 0;
     left: 0;
