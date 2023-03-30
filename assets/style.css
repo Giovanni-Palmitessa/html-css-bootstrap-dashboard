@@ -24,7 +24,8 @@ nav{
 }
 
 .small{
-    height: 70px;
+    height: 55px;
+    width: 55px;
 }
 
 .form-control{
@@ -53,10 +54,25 @@ nav{
 aside{
     height: calc(100vh - 70px);
     width: 150px;
+    padding: 1rem;
     position: fixed;
     bottom: 0;
     left: 0;
     background-color: var(--darkblue);
     background-image: url(img/sidebar-bg.png);
     background-size: cover;
+}
+
+.side-menu{
+    height: 100%;
+}
+
+.choose div{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    aside{
+        width: 68px;
+    }
 }
