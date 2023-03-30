@@ -29,10 +29,6 @@ nav{
     background-color: var(--lightgray);
 }
 
-.form-floating:not(.form-control:disabled)::before{
-    display: none;
-}
-
 .icon{
     color: var(--dark-gray);
 }
