@@ -5,6 +5,8 @@
     --dark-gray: #5B5858;
     --orange: #FF8F00;
     --darkblue: #051E34;
+    --blue: #1B72E8;
+    --shadow: #165BBA;
 
 }
 
@@ -75,4 +77,27 @@ aside{
     aside{
         width: 68px;
     }
+}
+
+/* MAIN */
+
+main{
+    right: 0;
+    height: calc(100vh - 70px);
+    width: calc(100% - 150px);
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow-y: auto;
+    margin-top: 70px;
+}
+
+/* SECTION BLUE */
+
+.blue{
+    background-color: var(--blue);
+}
+
+.blue .badge{
+    background-color: var(--shadow);
 }
