@@ -69,11 +69,16 @@ aside{
     height: 100%;
 }
 
+.icon-side{
+    width: 20px;
+    flex-shrink: 0;
+}
+
 .choose div{
     font-size: 15px;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 991.5px) {
     aside{
         width: 68px;
     }
@@ -92,12 +97,22 @@ main{
     margin-top: 70px;
 }
 
+@media screen and (max-width: 991.5px) {
+    main{
+        width: calc(100% - 68px)
+    }
+}
+
+
 /* SECTION BLUE */
 
 .blue{
     background-color: var(--blue);
+    
 }
 
 .blue .badge{
     background-color: var(--shadow);
+    border-radius: 30px;
+    font-weight: 500;
 }
