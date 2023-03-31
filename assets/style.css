@@ -116,3 +116,7 @@ main{
 .students{
     font-size: 13px;
 }
+
+.offcanvas-header{
+    margin-top: 70px;
+}
