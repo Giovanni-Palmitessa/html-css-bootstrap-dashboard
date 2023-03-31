@@ -19,7 +19,7 @@
 
                 <div class="input-group">
                     <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di laravel" aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control search-bars" placeholder="Prova a cercare: Lezioni di laravel" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 
                 <i class="fa-solid fa-list-ul icon d-none d-lg-block"></i>
@@ -111,13 +111,74 @@
 
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
 
                                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                 </div>
 
                                 <div class="offcanvas-body">
-                                        ...
+                                    <form class="row g-3">
+                                        <div class="col-6">
+                                          <label for="inputName4" class="form-label">Nome</label>
+                                          <input type="text" class="form-control" id="inputName4">
+                                        </div>
+
+                                        <div class="col-6">
+                                          <label for="inputSurname4" class="form-label">Cognome</label>
+                                          <input type="text" class="form-control" id="inputSurname4">
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="autoSizingInputGroup" class="form-label">Email</label>
+                                            <div class="input-group">
+                                              <div class="input-group-text">@</div>
+                                              <input type="text" class="form-control" id="autoSizingInputGroup">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="inputAdress4" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="inputAdress4">
+                                        </div>
+
+                                        
+                                        <div class="col-7">
+                                            <label for="inputCity4" class="form-label">Città</label>
+                                            <input type="text" class="form-control" aria-label="City" id="inputCity4">
+                                        </div>
+
+                                        <!-- <div class="col-md-3">
+                                            <label for="inputState4" class="form-label">Stato</label>
+                                              <input type="text" class="form-control" aria-label="State" id="inputState4">
+                                        </div> -->
+
+                                        <div class="col-3">
+                                            <label for="inputState4" class="form-label">Stato</label>
+                                            <select class="form-select" id="inputState4">
+                                              <option selected>Scegli</option>
+                                              <option value="1">Italia</option>
+                                              <option value="2">Francia</option>
+                                              <option value="3">Spagna</option>
+                                            </select>
+                                          </div>
+
+                                        <div class="col-2">
+                                            <label for="inputCap4" class="form-label">Cap</label>
+                                            <input type="text" class="form-control" aria-label="Zip" id="inputCap4">
+                                        </div>
+                                          
+
+
+                                    </form>
+
+
+
+
                                 </div>
                             </div>
                         </div>
