@@ -154,6 +154,10 @@ main{
     border-radius: 50%;
 }
 
+table{
+    white-space: nowrap;
+}
+
 .name-1{
     width: 60%;
 }
