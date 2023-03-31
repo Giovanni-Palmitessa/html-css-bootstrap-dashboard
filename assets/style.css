@@ -65,10 +65,6 @@ aside{
     background-size: cover;
 }
 
-.side-menu{
-    height: 100%;
-}
-
 .icon-side{
     width: 20px;
     flex-shrink: 0;
@@ -115,4 +111,8 @@ main{
     background-color: var(--shadow);
     border-radius: 30px;
     font-weight: 500;
+}
+
+.students{
+    font-size: 13px;
 }
