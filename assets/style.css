@@ -122,9 +122,23 @@ main{
     margin-top: 70px;
 }
 
-.offcanvas.offcanvas-end.off-canvas{
+/* .offcanvas.offcanvas-end.off-canvas{
     width: 40%;
+} */
+
+@media screen and (min-width: 0px) {
+    .offcanvas.offcanvas-end.off-canvas{
+        width: 100%;
+    }
 }
+
+@media screen and (min-width: 768px) {
+    .offcanvas.offcanvas-end.off-canvas{
+        width: 40%;
+    }
+}
+
+
 
 /* CARD SECTION */
 
