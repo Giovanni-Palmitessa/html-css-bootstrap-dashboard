@@ -7,6 +7,7 @@
     --darkblue: #051E34;
     --blue: #1B72E8;
     --shadow: #165BBA;
+    --salmon:#F26551;
 
 }
 
@@ -123,4 +124,18 @@ main{
 
 .offcanvas.offcanvas-end.off-canvas{
     width: 40%;
+}
+
+/* CARD SECTION */
+
+/* PROSSIME CLASSI SECTION */
+
+.coding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: var(--salmon);
+    border-radius: 50%;
 }
