@@ -120,3 +120,7 @@ main{
 .offcanvas-header{
     margin-top: 70px;
 }
+
+.offcanvas.offcanvas-end.off-canvas{
+    width: 40%;
+}
